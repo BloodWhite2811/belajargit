@@ -1,0 +1,138 @@
+body{ background-color:#ffffff;}
+a{ text-decoration: none;}
+/* index page */
+.bg-navbar{ background-color: #00215B !important;}
+/* header */
+header{ width:100%; background-color: #00215B; height: 35px;}
+.navbar-brand{ font-weight: 700; font-size: 30px;}
+.nav-link{ font-size: 18px;}
+.nav-link.active{ font-weight: 700;}
+.button-primary{ width: 150px; height: 40px; border-color: #00215B; color: #00215B; font-weight: 600; background-color: #fff; border-radius: 8px; border-style: none; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+.button-secondary{ width: 170px; height: 40px; background-color: #00215B; color: #fff; border-radius: 8px; border-style: none; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+/* end header */
+/* About us */
+.mid{ width: 100%; background-color: #D8DBE1;}
+.mid-container{ background-color: #D8DBE1;}
+.mid-container h5{ text-align: center; padding: 20px 0; font-size: 20px; font-weight: 700; color: #00215B;}
+.mid-container p{ text-align: center; padding: 10px 50px; color: #00215B; font-size: 30px; letter-spacing: 10px; font-weight: 300;}
+/* end about us */
+/* essence */
+.essen{ background-color: #fff;}
+.mid-essen{ background-color: #fff;}
+.mid-essen h6{ font-size: 18px; color: #00215B; font-weight: 700; letter-spacing: 2px; padding: 0 0 15px 0;}
+.mid-essen h1{ font-size: 40px; color: #00215B; font-weight: 200; letter-spacing: 2px; padding: 0 0 15px 0;}
+.mid-essen p{ font-size: 20px; color: #00215B; font-weight: 100; letter-spacing: 1px;}
+/* end essence */
+/* feature */
+.feature{width: 100%; background-color:#D8DBE1 ;}
+.mid-feature{background-color: none;}
+.feature h4{font-size: 28px; font-weight: 500; padding: 30px 0 40px 100px; letter-spacing: 3px;}
+/* end feature */
+/* footer */
+footer{width: 100%; background-color: #00215B;}
+.mid-footer h3{padding: 30px; text-align: center; color: #fff;}
+.mid-footer h4{padding: 40px 30px 10px ; text-align: center; color: #fff;}
+.mid-footer button{ width: 100%; padding: 10px; border-radius: 8px; font-size: 18px; font-weight: 500; border: 1px solid #fff; color: #fff; background-color: #00215B;}
+/* end footer */
+/* end index page */
+
+/* booking page */
+.booking{width: 100%; background-color:none ;}
+.card-booking{background-color: #ffffff; border-radius: 8px; box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0px 6px 20px 5px rgba(0, 0, 0, 0.19);}
+.card-booking h3{ text-align: center; padding: 30px 20px;}
+.card-booking h6{ padding: 20px 0 0px 50px;}
+.card-booking input[type=text]{ width: 100%; padding: 8px 20px; box-sizing: border-box; border-radius: 8px;}
+.card-booking button{width: 100%; background-color: #00215B; color: #fff; padding: 10px; border-radius: 8px; border-style: none;}
+.date{background-color: aqua; width: 100%;}
+.pick-date{background-color: #04AA6D;border: none;color: white;padding: 16px 32px;}
+.date label{padding: 20px 10px 8px 20px;}
+.date input[type=datetime-local]{ border-radius: 8px; width: 50%; padding: 10px 10px 8px 20px; margin: 0px 20px 10px;}
+.mid-button-booking{ background-color:#04AA6D;}
+.picker{background-color: none;}
+/* end booking page */
+
+/* list kamar */
+.list-kamar{background-color: #fff;}
+.title-listkamar{background-color: #fff; border-radius: 10px 10px 0 0;}
+.title-listkamar h3{ padding: 20px 25px;}
+.arrive{background-color: #fff;}
+.in-arrive{background-color: #fff; height: auto;}
+.in-arrive .total-guest{ background-color: #fff;}
+.in-arrive .total-guest h5{ padding: 15px 25px;}
+.in-arrive .info-date{background-color: #fff;}
+.in-arrive .info-date h5{padding: 10px 25px; text-align: right;}
+.listroom{background-color: #D9D9D9;}
+.detail-listroom{background-color: #fff; }
+.detail-listroom .gambar{background-color: #fff; }
+.detail-listroom .gambar img{ padding: 20px 10px;}
+.detail-listroom .isi{background-color:#fff;}
+.detail-listroom .harga{background-color:#fff;}
+.detail-listroom .harga h6{letter-spacing: 2px; font-size: 20px; text-align: center; padding: 15px 8px 0;}
+.detail-listroom .harga p{text-align: center; letter-spacing: 2px; font-size: 24px; font-weight: 500;}
+.title-kamar{ background-color: #fff; width: 50%; padding: 5px;}
+.title-kamar h5{ color: #000; padding-left: 10px; padding-top: 5px;}
+.luas-kamar{ background-color: #fff; width: 50%; padding: 10px; height: auto;}
+.luas-kamar h6{color: #000;}
+.deskripsi-kamar{ background-color: #ffffff; height: auto; border-top: solid 1px #D9D9D9; border-bottom: solid 1px #D9D9D9;}
+.deskripsi-kamar p{ color: #000; padding: 10px;}
+.fasilitas-kamar{ background-color: #ffffff;}
+.fasilitas-kamar h6{ color: #000; padding: 8px;}
+.detail-book{ background-color: #00215B; height: 50px;}
+.detail-book h5{color: #fff; font-size: 18px; text-align: center; padding-top: 10px;}
+/* end list kamar */
+
+/* kamar detail */
+.kamar-detail{ background-color: #ffffff;}
+.in-kamar-detail{box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0px 6px 20px 5px rgba(0, 0, 0, 0.19); background-color: #fff; border-radius: 10px;}
+.in-kamar-detail button{width: 100%; background-color: #00215B; color: #fff; padding: 12px; font-size: 20px; border-radius: 8px; border-style: none;}
+.title-reservation{ background-color: #00215B; box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0px 6px 20px 5px rgba(0, 0, 0, 0.19); color: #fff; border-radius: 10px 10px 0 0;}
+.title-reservation h4{ padding: 12px 20px;}
+.guest-isekaihotel{ background-color: #fff; box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0px 6px 20px 5px rgba(0, 0, 0, 0.19); border-radius: 0 0 10px 10px;}
+.guest-isekaihotel h5{ background-color: #fff; box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0px 6px 20px 5px rgba(0, 0, 0, 0.19); padding: 10px; width: 15%; text-align: center; font-size: 22px;}
+.in-guest-isekaihotel{ background-color: #fff;}
+.in-guest-isekaihotel h6{ padding: 8px 40px; font-size: 18px; letter-spacing: 1px;}
+.in-guest-isekaihotel h4{padding: 10px 10px 0;}
+.in-guest-isekaihotel h3{padding: 0px 10px 10px 10px; line-height: 15px;}
+.in-guest-isekaihotel p{ padding: 10px;}
+.in-guest-isekaihotel label{ padding: 5px 15px 0; font-size: 18px; font-weight: 500;}
+.guest-isekairoom{ background-color: #fff; box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0px 6px 20px 5px rgba(0, 0, 0, 0.19); border-radius: 10px;}
+.guest-isekairoom h5{ background-color: #fff; box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0px 6px 20px 5px rgba(0, 0, 0, 0.19); padding: 10px; border-radius: 10px 10px 0 0; width: 15%; text-align: center; font-size: 22px;}
+.diskon{ background-color: #fff;}
+.indiskon{ background-color: #fff;}
+.indiskon h4{ background-color: #fff; border-radius: 0; text-align: left; padding-left: 40px; padding-top: 10px;}
+.indiskon h3{ text-align: right; padding: 6px 30px;}
+.indiskon h2{ text-align: right; padding: 8px 30px;}
+/* end kamar detail */
+
+/* review */
+.review{ background-color: #ffffff; box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0px 6px 20px 5px rgba(0, 0, 0, 0.19);}
+.title-review{ background-color: #ffffff; border-radius: 0 0; box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0px 6px 20px 5px rgba(0, 0, 0, 0.19);}
+.title-review h3{ padding: 15px 20px;}
+.upload-review{ background-color: #fff; box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0px 6px 20px 5px rgba(0, 0, 0, 0.19);}
+.while-upload{ background-color: #fff;}
+.upload-review h5{background-color: #fff; padding: 10px 20px; width: 30%; box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0px 6px 20px 5px rgba(0, 0, 0, 0.19);}
+.comment{ background-color: #fff;}
+.comment-guest{ background-color: #D9D9D9; border-radius: 10px;}
+.comment-guest p{ padding: 10px 20px;}
+textarea {width: 100%;height: 150px;padding: 12px 20px;box-sizing: border-box;border: 2px solid #ccc;border-radius: 4px;background-color: #D9D9D9;font-size: 16px;resize: none;}
+.send-review{ background-color:#fff;}
+.send-review button{width: 30%; background-color: #00215B; color: #fff; padding: 12px; font-size: 20px; border-style: none;}
+.upload-image{ background-color: #fff;}
+.upload-image input[type=file]{ padding: 10px;}
+.guest-review{ background-color: #fff;}
+.guest-review h3{ background-color: #fff; padding: 15px; width: 30%; border-radius: 10px 10px 0 0; box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0px 6px 20px 5px rgba(0, 0, 0, 0.19);}
+/* end review */
+
+/* promo */
+.full-promo{ background-color: #D9D9D9; height: auto;}
+.promo{ background-color: #D9D9D9;}
+.promo-card{ background-color: #D9D9D9;}
+.inpromo-card{ background-color: #D9D9D9; margin: 10px;}
+.card{ border-radius: 0px 0px 0px 0px; box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0px 6px 20px 5px rgba(0, 0, 0, 0.19);}
+.card-img-top{ border-radius: 0px 0px 0px 0px;}
+.page{ background-color: #D9D9D9;}
+
+/* index fitur */
+.dialog-chat{ background-color: #04AA6D; width: 100%; height: 300px;}
+.title-dialog{ background-color: #00215B; width: 100%; height: 100px;}
+.intitle-dialog{ background-color: antiquewhite; height: 100px;}
